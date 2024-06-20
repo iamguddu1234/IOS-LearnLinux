@@ -11,6 +11,90 @@
 		B23931AC2C0B0E590072CC1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931AB2C0B0E590072CC1D /* ContentView.swift */; };
 		B23931AE2C0B0E5A0072CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23931AD2C0B0E5A0072CC1D /* Assets.xcassets */; };
 		B23931B12C0B0E5A0072CC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23931B02C0B0E5A0072CC1D /* Preview Assets.xcassets */; };
+		B23931BD2C0B0F3A0072CC1D /* MainBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931BC2C0B0F3A0072CC1D /* MainBasic.swift */; };
+		B23931BF2C0B0F560072CC1D /* MainIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931BE2C0B0F560072CC1D /* MainIntermediate.swift */; };
+		B23931C12C0B0F640072CC1D /* MainAdvance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931C02C0B0F640072CC1D /* MainAdvance.swift */; };
+		B23931C42C0B0FE20072CC1D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B23931C32C0B0FE20072CC1D /* Lottie */; };
+		B23931C62C0B10010072CC1D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931C52C0B10010072CC1D /* LottieView.swift */; };
+		B23931C82C0B10980072CC1D /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931C72C0B10980072CC1D /* Ads.swift */; };
+		B23931CB2C0B18E70072CC1D /* B1_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931CA2C0B18E70072CC1D /* B1_Introduction.swift */; };
+		B23931CD2C0B18F60072CC1D /* B2_history.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931CC2C0B18F60072CC1D /* B2_history.swift */; };
+		B23931CF2C0B19050072CC1D /* B3_Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931CE2C0B19050072CC1D /* B3_Download.swift */; };
+		B23931D12C0B19100072CC1D /* B4_Install.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931D02C0B19100072CC1D /* B4_Install.swift */; };
+		B23931D32C0B19610072CC1D /* B5_Linux_all_cmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931D22C0B19610072CC1D /* B5_Linux_all_cmd.swift */; };
+		B23931D52C0B19750072CC1D /* B6_things_to_do.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931D42C0B19750072CC1D /* B6_things_to_do.swift */; };
+		B23931D72C0B19880072CC1D /* B7_Install_soft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931D62C0B19880072CC1D /* B7_Install_soft.swift */; };
+		B23931D92C0B19960072CC1D /* B8_uninstall_soft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931D82C0B19960072CC1D /* B8_uninstall_soft.swift */; };
+		B23931DB2C0B19DF0072CC1D /* B9_top_50.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931DA2C0B19DF0072CC1D /* B9_top_50.swift */; };
+		B23931DD2C0B1A580072CC1D /* B10_master_in_linux_terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931DC2C0B1A570072CC1D /* B10_master_in_linux_terminal.swift */; };
+		B23931DF2C0B1A6D0072CC1D /* B11_pkg_manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931DE2C0B1A6D0072CC1D /* B11_pkg_manager.swift */; };
+		B23931E12C0B1A870072CC1D /* B12_pkg_man_cmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931E02C0B1A870072CC1D /* B12_pkg_man_cmd.swift */; };
+		B23931E32C0B1A980072CC1D /* B13_desktop_env.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931E22C0B1A980072CC1D /* B13_desktop_env.swift */; };
+		B23931E52C0B1AB40072CC1D /* B14_imp_files.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931E42C0B1AB40072CC1D /* B14_imp_files.swift */; };
+		B23931E72C0B1AC50072CC1D /* B15_file_system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931E62C0B1AC50072CC1D /* B15_file_system.swift */; };
+		B23931E92C0B1EB60072CC1D /* I1_Navigating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931E82C0B1EB60072CC1D /* I1_Navigating.swift */; };
+		B23931EB2C0B1ED20072CC1D /* I2_Understanding_FIle_permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931EA2C0B1ED20072CC1D /* I2_Understanding_FIle_permission.swift */; };
+		B23931ED2C0B1EEF0072CC1D /* I3_Introduction_text_editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931EC2C0B1EEF0072CC1D /* I3_Introduction_text_editor.swift */; };
+		B23931EF2C0B1F050072CC1D /* I4_Understanding_process.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931EE2C0B1F050072CC1D /* I4_Understanding_process.swift */; };
+		B23931F12C0B1F170072CC1D /* I5_add_remove_user.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931F02C0B1F170072CC1D /* I5_add_remove_user.swift */; };
+		B23931F32C0B1F2C0072CC1D /* I6_checking_sys_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931F22C0B1F2C0072CC1D /* I6_checking_sys_info.swift */; };
+		B23931F52C0B1F420072CC1D /* I7_Basic_networking_cmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931F42C0B1F420072CC1D /* I7_Basic_networking_cmd.swift */; };
+		B23931F72C0B1F540072CC1D /* I8_start_stop_service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931F62C0B1F540072CC1D /* I8_start_stop_service.swift */; };
+		B23931F92C0B1F670072CC1D /* I9_compressing_files.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931F82C0B1F670072CC1D /* I9_compressing_files.swift */; };
+		B23931FB2C0B1F830072CC1D /* I10_writing_and_running_script.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931FA2C0B1F830072CC1D /* I10_writing_and_running_script.swift */; };
+		B23931FD2C0B1F9E0072CC1D /* I11_understanding_shell_environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931FC2C0B1F9E0072CC1D /* I11_understanding_shell_environment.swift */; };
+		B23931FF2C0B20390072CC1D /* I12_redirecting_output.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23931FE2C0B20390072CC1D /* I12_redirecting_output.swift */; };
+		B23932012C0B20500072CC1D /* I13_manage_bkg_jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932002C0B20500072CC1D /* I13_manage_bkg_jobs.swift */; };
+		B23932032C0B20630072CC1D /* I14_check_disk_space.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932022C0B20630072CC1D /* I14_check_disk_space.swift */; };
+		B23932052C0B20780072CC1D /* I15_read_sys_logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932042C0B20780072CC1D /* I15_read_sys_logs.swift */; };
+		B23932072C0B20940072CC1D /* I16_basic_txt_processing_tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932062C0B20940072CC1D /* I16_basic_txt_processing_tools.swift */; };
+		B23932092C0B20AA0072CC1D /* I17_update_the_sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932082C0B20AA0072CC1D /* I17_update_the_sys.swift */; };
+		B239320B2C0B20CC0072CC1D /* I18_setting_n_using_env_var.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239320A2C0B20CC0072CC1D /* I18_setting_n_using_env_var.swift */; };
+		B239320D2C0B20E00072CC1D /* I19_connecting_ssh.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239320C2C0B20E00072CC1D /* I19_connecting_ssh.swift */; };
+		B239320F2C0B20F30072CC1D /* I20_different_shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239320E2C0B20F30072CC1D /* I20_different_shell.swift */; };
+		B23932112C0B210C0072CC1D /* I21_using_iptabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932102C0B210C0072CC1D /* I21_using_iptabels.swift */; };
+		B23932132C0B21290072CC1D /* I22_Understanding_files_dir_permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932122C0B21290072CC1D /* I22_Understanding_files_dir_permission.swift */; };
+		B23932152C0B21F80072CC1D /* I23_monitoring_sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932142C0B21F80072CC1D /* I23_monitoring_sys.swift */; };
+		B23932172C0B220A0072CC1D /* I24_clean_files.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932162C0B220A0072CC1D /* I24_clean_files.swift */; };
+		B23932192C0B222B0072CC1D /* I25_using_cmd_his.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932182C0B222B0072CC1D /* I25_using_cmd_his.swift */; };
+		B239321D2C0B23050072CC1D /* I26_basic_regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239321C2C0B23050072CC1D /* I26_basic_regex.swift */; };
+		B239321F2C0B232D0072CC1D /* I27_setting_time_date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239321E2C0B232D0072CC1D /* I27_setting_time_date.swift */; };
+		B23932212C0B234D0072CC1D /* I28_using_cmd_like_cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932202C0B234D0072CC1D /* I28_using_cmd_like_cat.swift */; };
+		B23932232C0B236C0072CC1D /* I29_modify_sys_path.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932222C0B236C0072CC1D /* I29_modify_sys_path.swift */; };
+		B23932252C0B23800072CC1D /* I30_creating_link.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932242C0B23800072CC1D /* I30_creating_link.swift */; };
+		B23932272C0B23940072CC1D /* I31_restart_shutdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932262C0B23940072CC1D /* I31_restart_shutdown.swift */; };
+		B23932292C0B23AE0072CC1D /* I32_creates_wap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932282C0B23AE0072CC1D /* I32_creates_wap.swift */; };
+		B239322B2C0B23BE0072CC1D /* I33_install_soft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239322A2C0B23BE0072CC1D /* I33_install_soft.swift */; };
+		B239322D2C0B24720072CC1D /* A1_monitor_sys_performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239322C2C0B24720072CC1D /* A1_monitor_sys_performance.swift */; };
+		B239322F2C0B24890072CC1D /* A2_linux_kernal_internals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239322E2C0B24890072CC1D /* A2_linux_kernal_internals.swift */; };
+		B23932312C0B249B0072CC1D /* A3_backup_n_recovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932302C0B249B0072CC1D /* A3_backup_n_recovery.swift */; };
+		B23932332C0B24B40072CC1D /* A4_customization_n_theming.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932322C0B24B40072CC1D /* A4_customization_n_theming.swift */; };
+		B23932352C0B24C80072CC1D /* A5_linux_certification_exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932342C0B24C80072CC1D /* A5_linux_certification_exam.swift */; };
+		B23932372C0B24DA0072CC1D /* A6_Ethical_Hacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932362C0B24DA0072CC1D /* A6_Ethical_Hacking.swift */; };
+		B23932392C0B24E80072CC1D /* A7_iot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932382C0B24E80072CC1D /* A7_iot.swift */; };
+		B239323B2C0B24FE0072CC1D /* A8_linux_for_developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239323A2C0B24FE0072CC1D /* A8_linux_for_developer.swift */; };
+		B239323D2C0B26930072CC1D /* A9_networking_services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239323C2C0B26930072CC1D /* A9_networking_services.swift */; };
+		B239323F2C0B26A70072CC1D /* A10_Ldap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239323E2C0B26A70072CC1D /* A10_Ldap.swift */; };
+		B23932412C0B26C10072CC1D /* A11_shell-_tricks_tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932402C0B26C10072CC1D /* A11_shell-_tricks_tips.swift */; };
+		B23932432C0B26D70072CC1D /* A12_linux_in_enterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932422C0B26D70072CC1D /* A12_linux_in_enterprise.swift */; };
+		B23932452C0B26F30072CC1D /* A13_linux_kernal_modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932442C0B26F30072CC1D /* A13_linux_kernal_modules.swift */; };
+		B23932472C0B27080072CC1D /* A14_linux_in_the_cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932462C0B27080072CC1D /* A14_linux_in_the_cloud.swift */; };
+		B23932492C0B27230072CC1D /* A15_linux_for_data_science.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932482C0B27230072CC1D /* A15_linux_for_data_science.swift */; };
+		B239324B2C0B274F0072CC1D /* A16_linux_accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239324A2C0B274F0072CC1D /* A16_linux_accessibility.swift */; };
+		B239324D2C0B27E10072CC1D /* AA1_sys_administration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239324C2C0B27E10072CC1D /* AA1_sys_administration.swift */; };
+		B239324F2C0B27FE0072CC1D /* AA2_troubleshooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239324E2C0B27FE0072CC1D /* AA2_troubleshooting.swift */; };
+		B23932512C0B28120072CC1D /* AA3_cloud_computing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932502C0B28120072CC1D /* AA3_cloud_computing.swift */; };
+		B23932532C0B28280072CC1D /* AA4_colaborative_tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932522C0B28280072CC1D /* AA4_colaborative_tool.swift */; };
+		B23932552C0B283D0072CC1D /* AA5_web_server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932542C0B283D0072CC1D /* AA5_web_server.swift */; };
+		B23932572C0B28510072CC1D /* AA6_database_management.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932562C0B28510072CC1D /* AA6_database_management.swift */; };
+		B23932592C0B28660072CC1D /* AA7_filesharing_n_permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932582C0B28660072CC1D /* AA7_filesharing_n_permission.swift */; };
+		B2DD15B72C14696E00AF3D3B /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15B62C14696E00AF3D3B /* Text1.swift */; };
+		B2DD15B92C14697400AF3D3B /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15B82C14697400AF3D3B /* Text2.swift */; };
+		B2DD15BB2C14697A00AF3D3B /* Text3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15BA2C14697A00AF3D3B /* Text3.swift */; };
+		B2DD15BE2C146EF700AF3D3B /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15BD2C146EF700AF3D3B /* DownloadView.swift */; };
+		B2DD15C12C14730000AF3D3B /* InstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C02C14730000AF3D3B /* InstallView.swift */; };
+		B2DD15C32C14748000AF3D3B /* LinuxAllCommandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C22C14748000AF3D3B /* LinuxAllCommandsModel.swift */; };
+		B2DD15C52C1474FC00AF3D3B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C42C1474FC00AF3D3B /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +103,89 @@
 		B23931AB2C0B0E590072CC1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B23931AD2C0B0E5A0072CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23931B02C0B0E5A0072CC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23931BC2C0B0F3A0072CC1D /* MainBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBasic.swift; sourceTree = "<group>"; };
+		B23931BE2C0B0F560072CC1D /* MainIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntermediate.swift; sourceTree = "<group>"; };
+		B23931C02C0B0F640072CC1D /* MainAdvance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAdvance.swift; sourceTree = "<group>"; };
+		B23931C52C0B10010072CC1D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B23931C72C0B10980072CC1D /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		B23931CA2C0B18E70072CC1D /* B1_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_Introduction.swift; sourceTree = "<group>"; };
+		B23931CC2C0B18F60072CC1D /* B2_history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2_history.swift; sourceTree = "<group>"; };
+		B23931CE2C0B19050072CC1D /* B3_Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3_Download.swift; sourceTree = "<group>"; };
+		B23931D02C0B19100072CC1D /* B4_Install.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4_Install.swift; sourceTree = "<group>"; };
+		B23931D22C0B19610072CC1D /* B5_Linux_all_cmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_Linux_all_cmd.swift; sourceTree = "<group>"; };
+		B23931D42C0B19750072CC1D /* B6_things_to_do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B6_things_to_do.swift; sourceTree = "<group>"; };
+		B23931D62C0B19880072CC1D /* B7_Install_soft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B7_Install_soft.swift; sourceTree = "<group>"; };
+		B23931D82C0B19960072CC1D /* B8_uninstall_soft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B8_uninstall_soft.swift; sourceTree = "<group>"; };
+		B23931DA2C0B19DF0072CC1D /* B9_top_50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B9_top_50.swift; sourceTree = "<group>"; };
+		B23931DC2C0B1A570072CC1D /* B10_master_in_linux_terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B10_master_in_linux_terminal.swift; sourceTree = "<group>"; };
+		B23931DE2C0B1A6D0072CC1D /* B11_pkg_manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B11_pkg_manager.swift; sourceTree = "<group>"; };
+		B23931E02C0B1A870072CC1D /* B12_pkg_man_cmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B12_pkg_man_cmd.swift; sourceTree = "<group>"; };
+		B23931E22C0B1A980072CC1D /* B13_desktop_env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B13_desktop_env.swift; sourceTree = "<group>"; };
+		B23931E42C0B1AB40072CC1D /* B14_imp_files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B14_imp_files.swift; sourceTree = "<group>"; };
+		B23931E62C0B1AC50072CC1D /* B15_file_system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B15_file_system.swift; sourceTree = "<group>"; };
+		B23931E82C0B1EB60072CC1D /* I1_Navigating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I1_Navigating.swift; sourceTree = "<group>"; };
+		B23931EA2C0B1ED20072CC1D /* I2_Understanding_FIle_permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2_Understanding_FIle_permission.swift; sourceTree = "<group>"; };
+		B23931EC2C0B1EEF0072CC1D /* I3_Introduction_text_editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I3_Introduction_text_editor.swift; sourceTree = "<group>"; };
+		B23931EE2C0B1F050072CC1D /* I4_Understanding_process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I4_Understanding_process.swift; sourceTree = "<group>"; };
+		B23931F02C0B1F170072CC1D /* I5_add_remove_user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I5_add_remove_user.swift; sourceTree = "<group>"; };
+		B23931F22C0B1F2C0072CC1D /* I6_checking_sys_info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I6_checking_sys_info.swift; sourceTree = "<group>"; };
+		B23931F42C0B1F420072CC1D /* I7_Basic_networking_cmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I7_Basic_networking_cmd.swift; sourceTree = "<group>"; };
+		B23931F62C0B1F540072CC1D /* I8_start_stop_service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I8_start_stop_service.swift; sourceTree = "<group>"; };
+		B23931F82C0B1F670072CC1D /* I9_compressing_files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I9_compressing_files.swift; sourceTree = "<group>"; };
+		B23931FA2C0B1F830072CC1D /* I10_writing_and_running_script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I10_writing_and_running_script.swift; sourceTree = "<group>"; };
+		B23931FC2C0B1F9E0072CC1D /* I11_understanding_shell_environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I11_understanding_shell_environment.swift; sourceTree = "<group>"; };
+		B23931FE2C0B20390072CC1D /* I12_redirecting_output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I12_redirecting_output.swift; sourceTree = "<group>"; };
+		B23932002C0B20500072CC1D /* I13_manage_bkg_jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I13_manage_bkg_jobs.swift; sourceTree = "<group>"; };
+		B23932022C0B20630072CC1D /* I14_check_disk_space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I14_check_disk_space.swift; sourceTree = "<group>"; };
+		B23932042C0B20780072CC1D /* I15_read_sys_logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I15_read_sys_logs.swift; sourceTree = "<group>"; };
+		B23932062C0B20940072CC1D /* I16_basic_txt_processing_tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I16_basic_txt_processing_tools.swift; sourceTree = "<group>"; };
+		B23932082C0B20AA0072CC1D /* I17_update_the_sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I17_update_the_sys.swift; sourceTree = "<group>"; };
+		B239320A2C0B20CC0072CC1D /* I18_setting_n_using_env_var.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I18_setting_n_using_env_var.swift; sourceTree = "<group>"; };
+		B239320C2C0B20E00072CC1D /* I19_connecting_ssh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I19_connecting_ssh.swift; sourceTree = "<group>"; };
+		B239320E2C0B20F30072CC1D /* I20_different_shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I20_different_shell.swift; sourceTree = "<group>"; };
+		B23932102C0B210C0072CC1D /* I21_using_iptabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I21_using_iptabels.swift; sourceTree = "<group>"; };
+		B23932122C0B21290072CC1D /* I22_Understanding_files_dir_permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I22_Understanding_files_dir_permission.swift; sourceTree = "<group>"; };
+		B23932142C0B21F80072CC1D /* I23_monitoring_sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I23_monitoring_sys.swift; sourceTree = "<group>"; };
+		B23932162C0B220A0072CC1D /* I24_clean_files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I24_clean_files.swift; sourceTree = "<group>"; };
+		B23932182C0B222B0072CC1D /* I25_using_cmd_his.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I25_using_cmd_his.swift; sourceTree = "<group>"; };
+		B239321C2C0B23050072CC1D /* I26_basic_regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I26_basic_regex.swift; sourceTree = "<group>"; };
+		B239321E2C0B232D0072CC1D /* I27_setting_time_date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I27_setting_time_date.swift; sourceTree = "<group>"; };
+		B23932202C0B234D0072CC1D /* I28_using_cmd_like_cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I28_using_cmd_like_cat.swift; sourceTree = "<group>"; };
+		B23932222C0B236C0072CC1D /* I29_modify_sys_path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I29_modify_sys_path.swift; sourceTree = "<group>"; };
+		B23932242C0B23800072CC1D /* I30_creating_link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I30_creating_link.swift; sourceTree = "<group>"; };
+		B23932262C0B23940072CC1D /* I31_restart_shutdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I31_restart_shutdown.swift; sourceTree = "<group>"; };
+		B23932282C0B23AE0072CC1D /* I32_creates_wap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I32_creates_wap.swift; sourceTree = "<group>"; };
+		B239322A2C0B23BE0072CC1D /* I33_install_soft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I33_install_soft.swift; sourceTree = "<group>"; };
+		B239322C2C0B24720072CC1D /* A1_monitor_sys_performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_monitor_sys_performance.swift; sourceTree = "<group>"; };
+		B239322E2C0B24890072CC1D /* A2_linux_kernal_internals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_linux_kernal_internals.swift; sourceTree = "<group>"; };
+		B23932302C0B249B0072CC1D /* A3_backup_n_recovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3_backup_n_recovery.swift; sourceTree = "<group>"; };
+		B23932322C0B24B40072CC1D /* A4_customization_n_theming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4_customization_n_theming.swift; sourceTree = "<group>"; };
+		B23932342C0B24C80072CC1D /* A5_linux_certification_exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5_linux_certification_exam.swift; sourceTree = "<group>"; };
+		B23932362C0B24DA0072CC1D /* A6_Ethical_Hacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6_Ethical_Hacking.swift; sourceTree = "<group>"; };
+		B23932382C0B24E80072CC1D /* A7_iot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7_iot.swift; sourceTree = "<group>"; };
+		B239323A2C0B24FE0072CC1D /* A8_linux_for_developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A8_linux_for_developer.swift; sourceTree = "<group>"; };
+		B239323C2C0B26930072CC1D /* A9_networking_services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A9_networking_services.swift; sourceTree = "<group>"; };
+		B239323E2C0B26A70072CC1D /* A10_Ldap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10_Ldap.swift; sourceTree = "<group>"; };
+		B23932402C0B26C10072CC1D /* A11_shell-_tricks_tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A11_shell-_tricks_tips.swift"; sourceTree = "<group>"; };
+		B23932422C0B26D70072CC1D /* A12_linux_in_enterprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A12_linux_in_enterprise.swift; sourceTree = "<group>"; };
+		B23932442C0B26F30072CC1D /* A13_linux_kernal_modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A13_linux_kernal_modules.swift; sourceTree = "<group>"; };
+		B23932462C0B27080072CC1D /* A14_linux_in_the_cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A14_linux_in_the_cloud.swift; sourceTree = "<group>"; };
+		B23932482C0B27230072CC1D /* A15_linux_for_data_science.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A15_linux_for_data_science.swift; sourceTree = "<group>"; };
+		B239324A2C0B274F0072CC1D /* A16_linux_accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A16_linux_accessibility.swift; sourceTree = "<group>"; };
+		B239324C2C0B27E10072CC1D /* AA1_sys_administration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA1_sys_administration.swift; sourceTree = "<group>"; };
+		B239324E2C0B27FE0072CC1D /* AA2_troubleshooting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA2_troubleshooting.swift; sourceTree = "<group>"; };
+		B23932502C0B28120072CC1D /* AA3_cloud_computing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA3_cloud_computing.swift; sourceTree = "<group>"; };
+		B23932522C0B28280072CC1D /* AA4_colaborative_tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA4_colaborative_tool.swift; sourceTree = "<group>"; };
+		B23932542C0B283D0072CC1D /* AA5_web_server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA5_web_server.swift; sourceTree = "<group>"; };
+		B23932562C0B28510072CC1D /* AA6_database_management.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA6_database_management.swift; sourceTree = "<group>"; };
+		B23932582C0B28660072CC1D /* AA7_filesharing_n_permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA7_filesharing_n_permission.swift; sourceTree = "<group>"; };
+		B2DD15B62C14696E00AF3D3B /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
+		B2DD15B82C14697400AF3D3B /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		B2DD15BA2C14697A00AF3D3B /* Text3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text3.swift; sourceTree = "<group>"; };
+		B2DD15BD2C146EF700AF3D3B /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		B2DD15C02C14730000AF3D3B /* InstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallView.swift; sourceTree = "<group>"; };
+		B2DD15C22C14748000AF3D3B /* LinuxAllCommandsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxAllCommandsModel.swift; sourceTree = "<group>"; };
+		B2DD15C42C1474FC00AF3D3B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23931C42C0B0FE20072CC1D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +219,18 @@
 		B23931A82C0B0E590072CC1D /* LearnLinux */ = {
 			isa = PBXGroup;
 			children = (
+				B2DD15BC2C146EC700AF3D3B /* Model */,
+				B23931BB2C0B0EEB0072CC1D /* Components */,
+				B23931BA2C0B0ECE0072CC1D /* Lottie */,
+				B23931B92C0B0EC40072CC1D /* Advance */,
+				B23931B82C0B0EBA0072CC1D /* Intermediate */,
+				B23931B72C0B0EB00072CC1D /* Basic */,
 				B23931A92C0B0E590072CC1D /* LearnLinuxApp.swift */,
 				B23931AB2C0B0E590072CC1D /* ContentView.swift */,
 				B23931AD2C0B0E5A0072CC1D /* Assets.xcassets */,
 				B23931AF2C0B0E5A0072CC1D /* Preview Content */,
+				B23931C92C0B10C50072CC1D /* BannerAds */,
+				B2DD15BF2C1472F700AF3D3B /* View */,
 			);
 			path = LearnLinux;
 			sourceTree = "<group>";
@@ -65,6 +241,145 @@
 				B23931B02C0B0E5A0072CC1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23931B72C0B0EB00072CC1D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B23931BC2C0B0F3A0072CC1D /* MainBasic.swift */,
+				B23931CA2C0B18E70072CC1D /* B1_Introduction.swift */,
+				B23931CC2C0B18F60072CC1D /* B2_history.swift */,
+				B23931CE2C0B19050072CC1D /* B3_Download.swift */,
+				B23931D02C0B19100072CC1D /* B4_Install.swift */,
+				B23931D22C0B19610072CC1D /* B5_Linux_all_cmd.swift */,
+				B23931D42C0B19750072CC1D /* B6_things_to_do.swift */,
+				B23931D62C0B19880072CC1D /* B7_Install_soft.swift */,
+				B23931D82C0B19960072CC1D /* B8_uninstall_soft.swift */,
+				B23931DA2C0B19DF0072CC1D /* B9_top_50.swift */,
+				B23931DC2C0B1A570072CC1D /* B10_master_in_linux_terminal.swift */,
+				B23931DE2C0B1A6D0072CC1D /* B11_pkg_manager.swift */,
+				B23931E02C0B1A870072CC1D /* B12_pkg_man_cmd.swift */,
+				B23931E22C0B1A980072CC1D /* B13_desktop_env.swift */,
+				B23931E42C0B1AB40072CC1D /* B14_imp_files.swift */,
+				B23931E62C0B1AC50072CC1D /* B15_file_system.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		B23931B82C0B0EBA0072CC1D /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B23931BE2C0B0F560072CC1D /* MainIntermediate.swift */,
+				B23931E82C0B1EB60072CC1D /* I1_Navigating.swift */,
+				B23931EA2C0B1ED20072CC1D /* I2_Understanding_FIle_permission.swift */,
+				B23931EC2C0B1EEF0072CC1D /* I3_Introduction_text_editor.swift */,
+				B23931EE2C0B1F050072CC1D /* I4_Understanding_process.swift */,
+				B23931F02C0B1F170072CC1D /* I5_add_remove_user.swift */,
+				B23931F22C0B1F2C0072CC1D /* I6_checking_sys_info.swift */,
+				B23931F42C0B1F420072CC1D /* I7_Basic_networking_cmd.swift */,
+				B23931F62C0B1F540072CC1D /* I8_start_stop_service.swift */,
+				B23931F82C0B1F670072CC1D /* I9_compressing_files.swift */,
+				B23931FA2C0B1F830072CC1D /* I10_writing_and_running_script.swift */,
+				B23931FC2C0B1F9E0072CC1D /* I11_understanding_shell_environment.swift */,
+				B23931FE2C0B20390072CC1D /* I12_redirecting_output.swift */,
+				B23932002C0B20500072CC1D /* I13_manage_bkg_jobs.swift */,
+				B23932022C0B20630072CC1D /* I14_check_disk_space.swift */,
+				B23932042C0B20780072CC1D /* I15_read_sys_logs.swift */,
+				B23932062C0B20940072CC1D /* I16_basic_txt_processing_tools.swift */,
+				B23932082C0B20AA0072CC1D /* I17_update_the_sys.swift */,
+				B239320A2C0B20CC0072CC1D /* I18_setting_n_using_env_var.swift */,
+				B239320C2C0B20E00072CC1D /* I19_connecting_ssh.swift */,
+				B239320E2C0B20F30072CC1D /* I20_different_shell.swift */,
+				B23932102C0B210C0072CC1D /* I21_using_iptabels.swift */,
+				B23932122C0B21290072CC1D /* I22_Understanding_files_dir_permission.swift */,
+				B23932142C0B21F80072CC1D /* I23_monitoring_sys.swift */,
+				B23932162C0B220A0072CC1D /* I24_clean_files.swift */,
+				B23932182C0B222B0072CC1D /* I25_using_cmd_his.swift */,
+				B239321C2C0B23050072CC1D /* I26_basic_regex.swift */,
+				B239321E2C0B232D0072CC1D /* I27_setting_time_date.swift */,
+				B23932202C0B234D0072CC1D /* I28_using_cmd_like_cat.swift */,
+				B23932222C0B236C0072CC1D /* I29_modify_sys_path.swift */,
+				B23932242C0B23800072CC1D /* I30_creating_link.swift */,
+				B23932262C0B23940072CC1D /* I31_restart_shutdown.swift */,
+				B23932282C0B23AE0072CC1D /* I32_creates_wap.swift */,
+				B239322A2C0B23BE0072CC1D /* I33_install_soft.swift */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		B23931B92C0B0EC40072CC1D /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				B23931C02C0B0F640072CC1D /* MainAdvance.swift */,
+				B239322C2C0B24720072CC1D /* A1_monitor_sys_performance.swift */,
+				B239322E2C0B24890072CC1D /* A2_linux_kernal_internals.swift */,
+				B23932302C0B249B0072CC1D /* A3_backup_n_recovery.swift */,
+				B23932322C0B24B40072CC1D /* A4_customization_n_theming.swift */,
+				B23932342C0B24C80072CC1D /* A5_linux_certification_exam.swift */,
+				B23932362C0B24DA0072CC1D /* A6_Ethical_Hacking.swift */,
+				B23932382C0B24E80072CC1D /* A7_iot.swift */,
+				B239323A2C0B24FE0072CC1D /* A8_linux_for_developer.swift */,
+				B239323C2C0B26930072CC1D /* A9_networking_services.swift */,
+				B239323E2C0B26A70072CC1D /* A10_Ldap.swift */,
+				B23932402C0B26C10072CC1D /* A11_shell-_tricks_tips.swift */,
+				B23932422C0B26D70072CC1D /* A12_linux_in_enterprise.swift */,
+				B23932442C0B26F30072CC1D /* A13_linux_kernal_modules.swift */,
+				B23932462C0B27080072CC1D /* A14_linux_in_the_cloud.swift */,
+				B23932482C0B27230072CC1D /* A15_linux_for_data_science.swift */,
+				B239324A2C0B274F0072CC1D /* A16_linux_accessibility.swift */,
+				B239324C2C0B27E10072CC1D /* AA1_sys_administration.swift */,
+				B239324E2C0B27FE0072CC1D /* AA2_troubleshooting.swift */,
+				B23932502C0B28120072CC1D /* AA3_cloud_computing.swift */,
+				B23932522C0B28280072CC1D /* AA4_colaborative_tool.swift */,
+				B23932542C0B283D0072CC1D /* AA5_web_server.swift */,
+				B23932562C0B28510072CC1D /* AA6_database_management.swift */,
+				B23932582C0B28660072CC1D /* AA7_filesharing_n_permission.swift */,
+			);
+			path = Advance;
+			sourceTree = "<group>";
+		};
+		B23931BA2C0B0ECE0072CC1D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B23931C52C0B10010072CC1D /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B23931BB2C0B0EEB0072CC1D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD15B62C14696E00AF3D3B /* Text1.swift */,
+				B2DD15B82C14697400AF3D3B /* Text2.swift */,
+				B2DD15BA2C14697A00AF3D3B /* Text3.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B23931C92C0B10C50072CC1D /* BannerAds */ = {
+			isa = PBXGroup;
+			children = (
+				B23931C72C0B10980072CC1D /* Ads.swift */,
+			);
+			path = BannerAds;
+			sourceTree = "<group>";
+		};
+		B2DD15BC2C146EC700AF3D3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD15C22C14748000AF3D3B /* LinuxAllCommandsModel.swift */,
+				B2DD15C42C1474FC00AF3D3B /* ItemRow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2DD15BF2C1472F700AF3D3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD15BD2C146EF700AF3D3B /* DownloadView.swift */,
+				B2DD15C02C14730000AF3D3B /* InstallView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +398,9 @@
 			dependencies = (
 			);
 			name = LearnLinux;
+			packageProductDependencies = (
+				B23931C32C0B0FE20072CC1D /* Lottie */,
+			);
 			productName = LearnLinux;
 			productReference = B23931A62C0B0E590072CC1D /* LearnLinux.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +429,9 @@
 				Base,
 			);
 			mainGroup = B239319D2C0B0E590072CC1D;
+			packageReferences = (
+				B23931C22C0B0FE20072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B23931A72C0B0E590072CC1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +458,91 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23931CD2C0B18F60072CC1D /* B2_history.swift in Sources */,
+				B23932552C0B283D0072CC1D /* AA5_web_server.swift in Sources */,
+				B2DD15C32C14748000AF3D3B /* LinuxAllCommandsModel.swift in Sources */,
+				B23931C82C0B10980072CC1D /* Ads.swift in Sources */,
+				B23932372C0B24DA0072CC1D /* A6_Ethical_Hacking.swift in Sources */,
+				B23932332C0B24B40072CC1D /* A4_customization_n_theming.swift in Sources */,
+				B23932152C0B21F80072CC1D /* I23_monitoring_sys.swift in Sources */,
+				B23932112C0B210C0072CC1D /* I21_using_iptabels.swift in Sources */,
+				B23932192C0B222B0072CC1D /* I25_using_cmd_his.swift in Sources */,
+				B23931CF2C0B19050072CC1D /* B3_Download.swift in Sources */,
+				B239323F2C0B26A70072CC1D /* A10_Ldap.swift in Sources */,
+				B23932052C0B20780072CC1D /* I15_read_sys_logs.swift in Sources */,
+				B2DD15BB2C14697A00AF3D3B /* Text3.swift in Sources */,
+				B23931C12C0B0F640072CC1D /* MainAdvance.swift in Sources */,
+				B23931D72C0B19880072CC1D /* B7_Install_soft.swift in Sources */,
+				B23932032C0B20630072CC1D /* I14_check_disk_space.swift in Sources */,
+				B23931BD2C0B0F3A0072CC1D /* MainBasic.swift in Sources */,
+				B23932212C0B234D0072CC1D /* I28_using_cmd_like_cat.swift in Sources */,
+				B23931FF2C0B20390072CC1D /* I12_redirecting_output.swift in Sources */,
+				B23932432C0B26D70072CC1D /* A12_linux_in_enterprise.swift in Sources */,
+				B23932292C0B23AE0072CC1D /* I32_creates_wap.swift in Sources */,
+				B239321D2C0B23050072CC1D /* I26_basic_regex.swift in Sources */,
+				B23932412C0B26C10072CC1D /* A11_shell-_tricks_tips.swift in Sources */,
+				B239322F2C0B24890072CC1D /* A2_linux_kernal_internals.swift in Sources */,
+				B23931D92C0B19960072CC1D /* B8_uninstall_soft.swift in Sources */,
+				B2DD15BE2C146EF700AF3D3B /* DownloadView.swift in Sources */,
+				B239324B2C0B274F0072CC1D /* A16_linux_accessibility.swift in Sources */,
+				B23932012C0B20500072CC1D /* I13_manage_bkg_jobs.swift in Sources */,
+				B23932392C0B24E80072CC1D /* A7_iot.swift in Sources */,
+				B23931F72C0B1F540072CC1D /* I8_start_stop_service.swift in Sources */,
+				B23932092C0B20AA0072CC1D /* I17_update_the_sys.swift in Sources */,
+				B23932272C0B23940072CC1D /* I31_restart_shutdown.swift in Sources */,
+				B23931EF2C0B1F050072CC1D /* I4_Understanding_process.swift in Sources */,
+				B2DD15C12C14730000AF3D3B /* InstallView.swift in Sources */,
+				B239324D2C0B27E10072CC1D /* AA1_sys_administration.swift in Sources */,
+				B23931E72C0B1AC50072CC1D /* B15_file_system.swift in Sources */,
+				B23932452C0B26F30072CC1D /* A13_linux_kernal_modules.swift in Sources */,
+				B239320B2C0B20CC0072CC1D /* I18_setting_n_using_env_var.swift in Sources */,
+				B239323D2C0B26930072CC1D /* A9_networking_services.swift in Sources */,
+				B23932472C0B27080072CC1D /* A14_linux_in_the_cloud.swift in Sources */,
+				B23932132C0B21290072CC1D /* I22_Understanding_files_dir_permission.swift in Sources */,
+				B23932492C0B27230072CC1D /* A15_linux_for_data_science.swift in Sources */,
+				B23931EB2C0B1ED20072CC1D /* I2_Understanding_FIle_permission.swift in Sources */,
+				B23932512C0B28120072CC1D /* AA3_cloud_computing.swift in Sources */,
+				B23931E32C0B1A980072CC1D /* B13_desktop_env.swift in Sources */,
+				B23931BF2C0B0F560072CC1D /* MainIntermediate.swift in Sources */,
+				B23931D52C0B19750072CC1D /* B6_things_to_do.swift in Sources */,
+				B239322B2C0B23BE0072CC1D /* I33_install_soft.swift in Sources */,
+				B23931F12C0B1F170072CC1D /* I5_add_remove_user.swift in Sources */,
+				B2DD15B92C14697400AF3D3B /* Text2.swift in Sources */,
+				B23931E92C0B1EB60072CC1D /* I1_Navigating.swift in Sources */,
+				B23931DD2C0B1A580072CC1D /* B10_master_in_linux_terminal.swift in Sources */,
+				B2DD15C52C1474FC00AF3D3B /* ItemRow.swift in Sources */,
+				B239323B2C0B24FE0072CC1D /* A8_linux_for_developer.swift in Sources */,
+				B23932352C0B24C80072CC1D /* A5_linux_certification_exam.swift in Sources */,
+				B23931F52C0B1F420072CC1D /* I7_Basic_networking_cmd.swift in Sources */,
+				B239321F2C0B232D0072CC1D /* I27_setting_time_date.swift in Sources */,
+				B23931FB2C0B1F830072CC1D /* I10_writing_and_running_script.swift in Sources */,
+				B23932592C0B28660072CC1D /* AA7_filesharing_n_permission.swift in Sources */,
+				B239324F2C0B27FE0072CC1D /* AA2_troubleshooting.swift in Sources */,
+				B23931F32C0B1F2C0072CC1D /* I6_checking_sys_info.swift in Sources */,
+				B23931D32C0B19610072CC1D /* B5_Linux_all_cmd.swift in Sources */,
+				B23932072C0B20940072CC1D /* I16_basic_txt_processing_tools.swift in Sources */,
+				B239322D2C0B24720072CC1D /* A1_monitor_sys_performance.swift in Sources */,
+				B23932172C0B220A0072CC1D /* I24_clean_files.swift in Sources */,
+				B23931CB2C0B18E70072CC1D /* B1_Introduction.swift in Sources */,
+				B23931DB2C0B19DF0072CC1D /* B9_top_50.swift in Sources */,
+				B23931DF2C0B1A6D0072CC1D /* B11_pkg_manager.swift in Sources */,
+				B23931FD2C0B1F9E0072CC1D /* I11_understanding_shell_environment.swift in Sources */,
+				B239320D2C0B20E00072CC1D /* I19_connecting_ssh.swift in Sources */,
+				B23931E12C0B1A870072CC1D /* B12_pkg_man_cmd.swift in Sources */,
 				B23931AC2C0B0E590072CC1D /* ContentView.swift in Sources */,
+				B23932252C0B23800072CC1D /* I30_creating_link.swift in Sources */,
+				B23932232C0B236C0072CC1D /* I29_modify_sys_path.swift in Sources */,
+				B23931ED2C0B1EEF0072CC1D /* I3_Introduction_text_editor.swift in Sources */,
+				B23932532C0B28280072CC1D /* AA4_colaborative_tool.swift in Sources */,
 				B23931AA2C0B0E590072CC1D /* LearnLinuxApp.swift in Sources */,
+				B2DD15B72C14696E00AF3D3B /* Text1.swift in Sources */,
+				B23931F92C0B1F670072CC1D /* I9_compressing_files.swift in Sources */,
+				B23931E52C0B1AB40072CC1D /* B14_imp_files.swift in Sources */,
+				B23931D12C0B19100072CC1D /* B4_Install.swift in Sources */,
+				B23932572C0B28510072CC1D /* AA6_database_management.swift in Sources */,
+				B239320F2C0B20F30072CC1D /* I20_different_shell.swift in Sources */,
+				B23931C62C0B10010072CC1D /* LottieView.swift in Sources */,
+				B23932312C0B249B0072CC1D /* A3_backup_n_recovery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +748,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B23931C22C0B0FE20072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B23931C32C0B0FE20072CC1D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B23931C22C0B0FE20072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B239319E2C0B0E590072CC1D /* Project object */;
 }

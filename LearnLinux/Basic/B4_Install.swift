@@ -9,7 +9,28 @@ import SwiftUI
 
 struct B4_Install: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack{
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+                
+                InstallView(title: "UBUNTU", details: "THis is the demo Text", detailsLink: "https://ubuntu/install")
+            }
+        }
     }
 }
 

@@ -9,7 +9,82 @@ import SwiftUI
 
 struct B3_Download: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack{
+            
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                
+                DownloadView(
+                    title: "Ubuntu",
+                    details: "This is the Ubuntu Details",
+                    DetailsTitle: "More Details About Ubuntu",
+                    detailsLink: "https://ubuntu.com",
+                    download: "Download Ubuntu",
+                    DownloadLink: "https://ubuntu.com/download/desktop"
+                )
+                
+            }
+        }
     }
 }
 
